@@ -12,7 +12,7 @@ func Sort(items []Interface,
 	cmp func(a, b Interface) bool, reverse bool) []Interface {
 	var num = len(items)
 
-	if num == 1 {
+	if num <= 1 {
 		return items
 	}
 
