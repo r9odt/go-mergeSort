@@ -1,4 +1,4 @@
-package mergeSort
+package mergesort
 
 // Interface just interface for human-redable code.
 type Interface interface{}
