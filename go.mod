@@ -1,3 +1,3 @@
-module github.com/JIexa24/go-mergeSort
+module github.com/r9odt/go-mergeSort
 
 go 1.16
