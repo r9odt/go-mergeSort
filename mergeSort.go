@@ -5,8 +5,10 @@ type Interface interface{}
 
 // Sort implement `merge sort` algorithm.
 // cmp function must return:
-//   true if a < b
-//   false if something else
+//
+//	true if a < b
+//	false if something else
+//
 // For reverse sort set reverse as true, otherwise set is as false.
 func Sort(items []Interface,
 	cmp func(a, b Interface) bool, reverse bool) []Interface {
